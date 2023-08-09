@@ -1,0 +1,10 @@
+.skillCont{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #fffafc 25%, transparent 25%), linear-gradient(225deg, #fffafc 25%, transparent 25%), linear-gradient(45deg, #fffafc 25%, transparent 25%), linear-gradient(315deg, #fffafc 25%, #e5e5f7 25%);
+    background-position:  4px 0, 4px 0, 0 0, 0 0;
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+}

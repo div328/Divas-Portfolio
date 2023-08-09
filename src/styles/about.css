@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Baloo+2:wght@400;500;600;700&family=Inter:wght@400;500&family=Public+Sans:wght@500;600&family=Quicksand:wght@300;400;600&family=Roboto+Mono:wght@300;400&family=Signika+Negative:wght@500;600&family=Source+Code+Pro:wght@300;400;600&display=swap');
+.aboutCont{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #fffafc 25%, transparent 25%), linear-gradient(225deg, #fffafc 25%, transparent 25%), linear-gradient(45deg, #fffafc 25%, transparent 25%), linear-gradient(315deg, #fffafc 25%, #e5e5f7 25%);
+    background-position:  4px 0, 4px 0, 0 0, 0 0;
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+    font-weight: 400;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    padding: 0 1rem 0 1rem;
+}
+
+h3{ 
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    color:#E384FF;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.aboutMySelf{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.hold1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutPara{
+    color: grey;
+}
+
+.aboutImg{
+    width: 40vw;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
+}
+
+.a2:hover{
+    cursor: pointer;
+    color:#E384FF;
+}
+
+
+@media only screen and (max-width: 380px){
+    .aboutCont{
+        width: 91vw;
+        height: 100vh;
+    }
+    h3{
+        line-height: 2rem;
+    }
+    .aboutMySelf{
+        display: block;
+        width: 91vw;
+    }
+
+    .aboutImg{
+        width: 90vw;
+    }
+
+}
