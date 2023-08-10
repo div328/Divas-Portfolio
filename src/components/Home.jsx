@@ -1,7 +1,6 @@
 import React ,{useEffect,useRef} from 'react'
 import '../styles/home.css'
 import Typed from "typed.js";
-import imgsrc from '../img/divas.jpg';
 
 function Home() {
   
@@ -43,7 +42,7 @@ function Home() {
         <button className='buttonDes re' onClick={resume}>Resume</button>
       </div>
       </div>
-      <div className='homeRight'><img className='divasImg' src={imgsrc} alt='img'/>
+      <div className='homeRight'><img className='divasImg' src='/img/divas.jpg' alt='img'/>
       <img className='mobileImg' src="https://www.seekpng.com/png/detail/111-1112824_picture-my-portfolio-logo-png.png" alt="Picture - My Portfolio Logo Png@seekpng.com"/>
       </div>
       

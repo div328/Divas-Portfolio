@@ -65,7 +65,7 @@ h3{
 }
 
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 480px){
     .aboutCont{
         width: 91vw;
         height: 100vh;

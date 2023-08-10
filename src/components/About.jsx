@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/about.css'
-import imgSrc from '../img/about.jpg'
+
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
 
       <div className='aboutCont'>
         <div className='aboutMySelf bt'>
-             <img className='aboutImg' src={imgSrc} alt=''/>
+             <img className='aboutImg' src='/img/about.jpg' alt=''/>
              <div className='hold1'>
                <h3>A LITTLE ABOUT ME</h3>
                 <p className='aboutPara'>
@@ -19,7 +19,7 @@ function About() {
                <div className='social'>
                <a href='https://www.linkedin.com/in/divas-singh-6063ba1b9/' className='a2'><i class="fa-brands fa-linkedin sc"></i></a>
                <a href='https://www.instagram.com/singhd91/' className='a2'><i class="fa-brands fa-instagram sc"></i></a>
-               <a href='https://www.facebook.com/divas.singh.777/' className='a2'><i class="fa-brands fa-facebook sc"></i></a>
+               <a href='https://github.com/div328' className='a2'><i class="fa-brands fa-github sc"></i></a>
                </div>
              </div>
          </div>

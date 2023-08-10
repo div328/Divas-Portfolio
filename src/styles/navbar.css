@@ -54,7 +54,7 @@
     color: #E384FF;
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 480px){
     .navBrand{
         position: absolute;
         visibility: hidden;    

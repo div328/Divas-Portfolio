@@ -6,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Project from './components/Project';
+import Card from './components/Card';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='skills' element={<Skills/>}/>
         <Route path='contact' element={<Contact/>}/>
         <Route path='project' element={<Project/>} />
+        <Route path='card' element={<Card src='/img/c++.png' statement='1 year of experience'/>}></Route>
       </Routes>
 
     </div>
