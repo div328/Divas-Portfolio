@@ -7,7 +7,7 @@ function Project() {
   return (
     <>
       <div className='projectCont'>
-      <h3>Project</h3>
+      <h3>Projects</h3>
       <div className='mainSect'>
         {
           obj.projects.map((i) => <ProjectCard src={i.imgSrc} statement={i.statement} url={(i.url!==''?i.url:undefined)}/>)
