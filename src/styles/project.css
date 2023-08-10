@@ -1,4 +1,5 @@
-.skillCont{
+
+.projectCont{
     background-color: #e5e5f7;
     opacity: 1;
     background-image:  linear-gradient(135deg, #fffafc 25%, transparent 25%), linear-gradient(225deg, #fffafc 25%, transparent 25%), linear-gradient(45deg, #fffafc 25%, transparent 25%), linear-gradient(315deg, #fffafc 25%, #e5e5f7 25%);
@@ -21,14 +22,13 @@
 }
 
 @media only screen and (max-width: 480px){
-    .skillCont{
+    .projectCont{
         overflow: scroll;
         height: auto;
         align-items: center;
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
     .mainSect{
         align-items: center;
         justify-content: space-between;

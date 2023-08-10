@@ -1,0 +1,50 @@
+
+.skillCardBox1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+    margin-top: 40px;
+    background-color: white;
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+.a3{
+    text-decoration: none;
+    color: blue;
+}
+.a3:hover{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.skillCardBox1:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.skillCardImg1 {
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.exp1{
+   text-align: center;
+   padding: 3px;
+   margin-bottom: 0;
+   width:100%;
+}
+
+@media only screen and (max-width: 480px){
+ .skillCardBox1{
+   padding-top:10px ;
+ }
+}

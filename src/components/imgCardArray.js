@@ -43,4 +43,30 @@ let skills =[
          }
         ];
 
-export default skills;
+   let projects = [
+                   {
+                     id:'8',
+                     imgSrc:"/img/Dump.png",
+                     statement:"A react typing Website using React , Firebase.",
+                     url:"https://github.com/div328/DumbType"
+                   },
+
+                   {
+                     id:'9',
+                     imgSrc:"/img/login.png",
+                     statement:"Hashing/Salting of Password using Node.js, crypto.",
+                     url:''
+                   },
+
+                   {
+                     id:'10',
+                     imgSrc:"/img/simon.png",
+                     statement:"A HTML,CSS,JavaScript simon game.",
+                     url:''
+                   }
+                  ];
+   
+   
+   let obj = {skills,projects}
+
+export default obj ;

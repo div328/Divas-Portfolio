@@ -12,7 +12,7 @@ function Navbar() {
                 <li><NavLink to="about" className="about a1"><i class="fa-solid fa-paragraph"></i>  <span className='mobile'>About</span></NavLink></li>
                 <li><NavLink to="skills" className="skills a1"><i class="fa-solid fa-list"></i>  <span className='mobile'>Skills</span></NavLink></li>
                 <li><NavLink to="project" className="projects a1"><i class="fa-solid fa-file"></i>  <span className='mobile'>Project</span></NavLink></li>
-                <li><NavLink to="contact" className="contact a1"><i class="fa-solid fa-user"></i>  <span className='mobile'>Contact</span></NavLink></li>
+                {/* <li><NavLink to="contact" className="contact a1"><i class="fa-solid fa-user"></i>  <span className='mobile'>Contact</span></NavLink></li> */}
             </ul>
         </div> 
     </>
